@@ -88,3 +88,5 @@ def secret_calculation(number1, number2):
 # Descomente para ver o traceback
 # result = secret_calculation(-1, 1)
 ```
+
+Exercicio de Exceções: [clique aqui](../../03-Exercicios/01-python-basic/05-excecoes.md)

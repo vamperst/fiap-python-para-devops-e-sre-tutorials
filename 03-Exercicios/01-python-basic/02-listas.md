@@ -63,3 +63,6 @@ my_list =
 print(my_list)
 assert my_list == [14, 12, 6.2, 6, 5, 1, 0.9, 0]
 ```
+
+
+Retorne para a próxima demo [dicionarios](../../02-demos/01-python-basic/05-dicionarios.md)

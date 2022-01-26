@@ -88,3 +88,5 @@ assert doge.get_energy() == 9
 another_doge = Dog()
 assert another_doge.get_energy() == 10
 ```
+
+Retorne para a próxima demo [Excecoes](../../02-demos/01-python-basic/10-excecoes.md)

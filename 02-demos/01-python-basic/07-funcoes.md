@@ -143,3 +143,5 @@ def my_function(some_argument):
 def my_other_function():
     pass
 ```
+
+Exercicio de funções: [clique aqui](../../03-Exercicios/01-python-basic/04-funcoes.md)

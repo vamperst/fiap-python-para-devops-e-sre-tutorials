@@ -58,3 +58,4 @@ assert average_length_of_words('one two three') == 3.7
 assert average_length_of_words('one two three four') == 3.8
 assert average_length_of_words('') == 0
 ```
+Retorne para a próxima demo [ler-arquivos](../../02-demos/01-python-basic/08-ler-arquivos.md)

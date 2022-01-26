@@ -199,3 +199,5 @@ cat = Cat()
 cat.greet()
 print("Cat's favorite food is {}".format(cat.favorite_food))
 ```
+
+Exercicio de Classes: [clique aqui](../../03-Exercicios/01-python-basic/06-classes.md)

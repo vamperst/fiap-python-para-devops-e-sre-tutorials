@@ -161,3 +161,5 @@ Os valores podem ser mutáveis
 good_dict = {'my key': ['Python', 'is', 'still', 'cool']}
 print(good_dict)
 ```
+
+Exercicio de dicionarios: [clique aqui](../../03-Exercicios/01-python-basic/03-dicionarios.md)

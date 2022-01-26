@@ -58,3 +58,5 @@ assert dict1 == {
 assert dict2 == {'key1': 123, 'special_key': 'secret'}
 assert dict3 == {'key2': 456, 'keyX': 'X'}
 ```
+
+Retorne para a próxima demo [for-loops](../../02-demos/01-python-basic/06-for-loops.md)

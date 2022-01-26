@@ -145,3 +145,6 @@ print(greeting)
 ```
 
 Para uma visão mais detalhada sobre condicionais, verifique este [tutorial Real Python](https://realpython.com/python-conditional-statements/).
+
+
+Exercicio de condicionais: [clique aqui](../../03-Exercicios/01-python-basic/01-condicionais.md)

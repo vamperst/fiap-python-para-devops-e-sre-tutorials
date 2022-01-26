@@ -161,3 +161,5 @@ my_list = ['a', 'b', 'ham']
 my_list.reverse()
 print(my_list)
 ```
+
+Exercicio de listas: [clique aqui](../../03-Exercicios/01-python-basic/02-listas.md)
