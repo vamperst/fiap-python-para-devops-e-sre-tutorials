@@ -21,45 +21,7 @@ assert calc.calculate_power() == 8
 assert calc.calculate_sum(4) == 9
 ```
 
-# 2. Finalize `StringManipulator` class
-Fill `____` pieces and create implementation for `stripped_title()`.
-
-
-```python
-class StringManipulator:
-    """____"""
-    
-    category = ____
-    
-    def __init__(self, original):
-        self.string = ____
-        
-    def reverse_words(self):
-        words = self.string.____
-        self.string = ' '.join(reversed(____))
-        
-    def make_title(self):
-        # Criar implementação para isso
-        
-    def get_manipulated(____):
-        return self._____
-```
-
-
-```python
-assert StringManipulator.__doc__ == 'Docstring of StringManipulator'
-assert StringManipulator.category == 'Manipulator'
-
-str_manip = StringManipulator('cOOL pyThON')
-
-str_manip.reverse_words()
-assert str_manip.get_manipulated() == 'pyThON cOOL'
-
-str_manip.make_title()
-assert str_manip.get_manipulated() == 'Python Cool'
-```
-
-# 3. Criar classe `cães
+# 2. Criar classe `cães
 Crie a classe `Dog` que tem a seguinte especificação:
 * Os cães consomem sua energia latindo e ganham energia dormindo
 * Uma nova instância `Dog` tem 10 unidades de energia
