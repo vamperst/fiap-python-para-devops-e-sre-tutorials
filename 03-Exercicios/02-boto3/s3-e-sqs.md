@@ -1,11 +1,11 @@
 # Exercício 1
 
 Crie um script que irá:
-    - Criar uma fila
-    - Recuperar a URL da fila via boto3 e guardar em uma variavel
-    - Postar 10 mensagens da fila criada
-    - Ler 10 mensagens da fila criada
-    - Deletar a fila
+  1. Criar uma fila
+  2. Recuperar a URL da fila via boto3 e guardar em uma variavel
+  3. Postar 10 mensagens da fila criada
+  4. Ler 10 mensagens da fila criada
+  5. Deletar a fila
 
 Utilize as respostas de cada chamada do boto3 para atribuir a variáveis se necessário e para imprimir informações de cada passo no terminal afim de conseguir acompanhar em qual passo do script estamos.
 
