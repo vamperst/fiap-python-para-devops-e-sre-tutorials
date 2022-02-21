@@ -29,9 +29,9 @@ service: exercicio-sqs-s3
 frameworkVersion: '3'
 
 custom:
-  sqsARN: arn:aws:sqs:us-east-1:034551965284:teste
-  sqsURL: https://sqs.us-east-1.amazonaws.com/034551965284/teste
-  nomeBucket: teste-rafbarbo-12354
+  sqsARN: COLE AQUI O ARN DA SUA FILA
+  sqsURL: COLE AQUI A URL DA SUA FILA
+  nomeBucket: COLE AQUI O NOME DO BUCKET A SER CRIADO E USADO
   
 provider:
   name: aws
@@ -79,6 +79,11 @@ E mensagem que o primeiro lambda envia para o SQS deve seguir o modelo:
     "chave": "chave do objeto"
 }
 ```
+
+Dentro das funções lambda tem 2 variaveis de ambiente:
+  1. SQSURL: Contém a URL da fila SQS a ser utilizada
+  2. NOMEBUCKET: Contém o nome do bucket a ser utilizado
+Leia as variavéis de ambiente via seu código python: [como ler uma variavel de ambiente](https://dicasdepython.com.br/python-como-ler-variavel-de-ambiente/#:~:text=Portanto%2C%20para%20acessar%20o%20valor,VARI%C3%81VEL%2DDE%2DAMBIENTE'%5D%20.)
 
 Para garantir que tem o serverless framework instalado execute o comando `npm install -g serverless`
 
