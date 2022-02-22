@@ -147,7 +147,7 @@ Transferir Operations Use threads para implementar simultaneamente. O uso das th
 
 Se o uso de thread estiver desativado, transferir simultaneidade não ocorrerá. Assim, o valor do atributo Max_Concurrency é ignorado.
 
-Crie um arquivo chamado download-em-partes.py `c9 open download-em-partes.py` com o seguinte conteúdo:
+Crie um arquivo chamado download-em-partes.py `c9 open c9 open upload-dividido.py` com o seguinte conteúdo:
 
 ```python
 import boto3
@@ -164,5 +164,5 @@ arquivoLocal="1GB.file"
 response=s3.upload_file(arquivoLocal, nomeDoBucket, arquivoLocal, Config=config)
 print(response)
 ```
-Execute o script criado com o comando `python download-em-partes.py`
+Execute o script criado com o comando `python upload-dividido.py`
 
