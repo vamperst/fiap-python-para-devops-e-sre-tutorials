@@ -147,7 +147,7 @@ Transferir Operations Use threads para implementar simultaneamente. O uso das th
 
 Se o uso de thread estiver desativado, transferir simultaneidade não ocorrerá. Assim, o valor do atributo Max_Concurrency é ignorado.
 
-Crie um arquivo chamado download-em-partes.py `c9 open c9 open upload-dividido.py` com o seguinte conteúdo:
+Crie um arquivo chamado download-em-partes.py `c9 open upload-dividido.py` com o seguinte conteúdo:
 
 ```python
 import boto3
