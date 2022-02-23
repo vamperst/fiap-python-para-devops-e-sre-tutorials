@@ -59,7 +59,7 @@ Neste exemplo você irá criar seu próprio documento de automação e executar.
                     IamInstanceProfile={
                         'Name': perfilDeInstancia
                     },
-                    InstanceId=instance.id
+                    InstanceId=instancia.id
                 )
                 print(f"Perfil de instancia {perfilDeInstancia} associado a  {instancia.id} de maneira bem sucedida")
             else:
